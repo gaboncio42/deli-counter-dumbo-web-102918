@@ -21,7 +21,12 @@ def take_a_number(katz_deli, name)
     katz_deli.each do |name|
       people_in_line.push("#{name}")
     end
-    
+    katz_deli.index do |index|
+      index += 1
+      number_in_line.push("#{index}")
+    end
+  end
+  puts "You are #{number_in_line.join(" ")"
 end
 
 
