@@ -28,8 +28,6 @@ def now_serving(katz_deli)
       current_person.push("#{name}")
     end
   end
-  puts ""
-      
-  end
+  puts "Currently serving #{current_person}"
 end
 
