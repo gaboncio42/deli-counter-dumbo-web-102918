@@ -14,15 +14,6 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(array, name)
-  names_in_line = []
-  while array.length > 0
-    array.each do |name|
-      names_in_line.push("#{name}")
-    end
-  end
-  puts "Welcome, #{names_in_line.join(" ")}. You are number 1 in line"
-end
 
 
 
