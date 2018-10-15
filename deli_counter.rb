@@ -14,6 +14,15 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(katz_deli, name)
+  people_in_line = []
+  number_in_line = []
+  while katz_deli.count > 0
+    katz_deli.each do |name|
+      people_in_line.push("#{name}")
+    end
+    
+end
 
 
 
