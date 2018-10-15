@@ -16,17 +16,12 @@ end
 
 def take_a_number(katz_deli, name)
   people_in_line = []
-  number_in_line = []
   while katz_deli.count > 0
     katz_deli.each do |name|
       people_in_line.push("#{name}")
     end
-    katz_deli.index do |index|
-      index += 1
-      number_in_line.push("#{index}")
-    end
   end
-  puts "Welcome, #{people_in_line.join(" ")}. You are number #{number_in_line}."
+  puts "Welcome, #{people_in_line.join(" ")}."
 end
 
 
