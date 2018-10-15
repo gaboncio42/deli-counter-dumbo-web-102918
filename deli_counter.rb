@@ -15,6 +15,12 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  new_line = []
+  katz_deli.each do |name|
+    new_line.push("#{name}")
+  end
+  puts "Welcome, #{new_line.join(" ")}. You are number #{katz_deli.length} in line."
+end
   
 
 
