@@ -28,6 +28,6 @@ def now_serving(katz_deli)
       current_person.push("#{name}")
     end
   end
-  puts "Currently serving #{current_person}"
+  puts "Currently serving #{current_person.join(" ")}"
 end
 
