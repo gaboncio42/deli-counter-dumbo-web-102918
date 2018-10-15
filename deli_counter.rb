@@ -15,9 +15,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  people_in_line = []
-  while katz_deli.count > 0
-    katz_deli.eac
+  name.push(katz_deli)
+  puts "Welcome #{name}. Your are number #{katz_deli.length} in line."
 end
 
 
