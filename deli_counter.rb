@@ -17,11 +17,7 @@ end
 def take_a_number(katz_deli, name)
   people_in_line = []
   while katz_deli.count > 0
-    katz_deli.each do |name|
-      people_in_line.push("#{name}")
-    end
-  end
-  puts "Welcome, #{people_in_line.join(" ")}."
+    katz_deli.eac
 end
 
 
